@@ -1,5 +1,8 @@
 # Changes
 
+## 0.6.7
+* Added 2026 PAP, thanks @mape6
+
 ## 0.6.6
 * Added 2025 PAP
 
