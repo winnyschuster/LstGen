@@ -1,7 +1,11 @@
 # Changes
 
-## 0.6.7
+## 0.7.1
+* Fixed project metadata
+
+## 0.7.0
 * Added 2026 PAP, thanks @mape6
+* Migrated project build to uv and pyproject.toml
 
 ## 0.6.6
 * Added 2025 PAP
