@@ -13,13 +13,9 @@ Folgende Programmiersprachen werden zur Zeit unterstützt:
 * Go
 
 ## Installation
-* Mit `pip` oder `easy_install` aus PyPI:
+* Mit `pip` aus PyPI:
 ```bash
 pip install lstgen
-```
-oder
-```bash
-easy_install lstgen
 ```
 Danach ist das Program `lstgen` (für gewöhnlich)  unter `/usr/local/bin/lstgen`
 verfügbar.

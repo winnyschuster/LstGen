@@ -6,7 +6,7 @@ import sys
 import os
 import argparse
 import codecs
-import pkg_resources
+from importlib.metadata import version
 
 from lxml import etree
 
@@ -24,7 +24,7 @@ def error(msg):
     sys.exit(1)
 
 def get_version():
-    return pkg_resources.get_distribution('lstgen').version
+    return version('lstgen')
 
 def main():
     """ main lstgen function """
