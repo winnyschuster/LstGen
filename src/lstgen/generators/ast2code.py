@@ -112,7 +112,7 @@ class AstToCode(object):
         return ['{}{}'.format(self.inst_prefix, node.id)]
 
     def _conv_number(self, node):
-        return [str(node.n)]
+        return [str(node.value)]
 
     def _conv_bool_op(self, node):
         vals = []
@@ -214,7 +214,7 @@ class AstToCode(object):
         if isinstance(node, ast.Name):
             return self._conv_name(node)
 
-        if isinstance(node, ast.Num):
+        if isinstance(node, ast.Constant):
             return self._conv_number(node)
 
         if isinstance(node, ast.BoolOp):
